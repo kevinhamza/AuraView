@@ -1,0 +1,7 @@
+flask
+requests
+requests_oauthlib
+python-dotenv
+dlib
+opencv-python
+numpy
