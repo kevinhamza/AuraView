@@ -1,9 +1,7 @@
 # AuraView
 
-# AR Social Glasses
-
 ## Overview
-AR Social Glasses is an augmented reality application that recognizes faces in real-time and fetches user information from social media profiles.
+AuraView is an augmented reality application that recognizes faces in real-time and fetches user information from social media profiles.
 
 ## Project Structure
 AR-Social-Glasses/ ├── Android/
@@ -11,7 +9,6 @@ AR-Social-Glasses/ ├── Android/
 │ ├── mock_server.py │ ├── social_media_api.py │ ├── face_recognition.py ├── .env
 ├── README.md
 └── requirements.txt
-
 
 ## Setup Instructions
 
@@ -30,10 +27,11 @@ Install the required Python packages:
        Run the mock server:
        python mock_server.py
  '''Android App
-
+ 
     Open the Android project in Android Studio.
     Make sure you have ARCore installed on your device/emulator.
     Build and run the application on an ARCore compatible device.
+    
 # Usage
     The application captures video from the camera and detects faces.
     It matches the detected faces against known faces and retrieves user info from the mock server.
@@ -42,9 +40,10 @@ Install the required Python packages:
     Parameters: name - Name of the user to retrieve info for.
 
 Response: Returns user information including name, occupation, and social media links.
-License
-This project is licensed under the MIT License.
+
+# License
+    This project is licensed under the MIT License.
 
 
 ### Final Notes
-Please replace the placeholder values in `.env` and any other areas with your actual configurations. Ensure you test the application thoroughly to verify that everything works as intended.
+     Please replace the placeholder values in `.env` and any other areas with your actual configurations. Ensure you test the application thoroughly to verify that everything works as intended.
