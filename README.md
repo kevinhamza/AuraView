@@ -18,15 +18,14 @@ AuraView is an augmented reality application that recognizes faces in real-time 
    git clone <repository_url>
    cd AR-Social-Glasses/server
 Install the required Python packages:
- '''bash
 
     pip install -r requirements.txt
     Set up environment variables in the .env file with your social media API keys.
- '''bash
-  
-       Run the mock server:
-       python mock_server.py
- '''Android App
+    
+    run the mock server:
+    python mock_server.py
+
+Android App
  
     Open the Android project in Android Studio.
     Make sure you have ARCore installed on your device/emulator.
