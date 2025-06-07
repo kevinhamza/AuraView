@@ -4,11 +4,11 @@
 AuraView is an augmented reality application that recognizes faces in real-time and fetches user information from social media profiles.
 
 ## Project Structure
-AR-Social-Glasses/ ├── Android/
-│ ├── app/ │ ├── ... ├── server/
-│ ├── mock_server.py │ ├── social_media_api.py │ ├── face_recognition.py ├── .env
-├── README.md
-└── requirements.txt
+    AR-Social-Glasses/ ├── Android/
+    │ ├── app/ │ ├── ... ├── server/
+    │ ├── mock_server.py │ ├── social_media_api.py │ ├── face_recognition.py ├── .env
+    ├── README.md
+    └── requirements.txt
 
 ## Setup Instructions
 
